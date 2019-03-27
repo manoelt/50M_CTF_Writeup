@@ -886,6 +886,8 @@ If you're reading this, you've made it to the end of the road for this CTF.
 HERE IT IS: c8889970d9fb722066f31e804e351993
 
 
+Check ![Others](Others.md) for reports from other players.
+
 ### References
 1. https://crackstation.net/hashing-security.htm
 2. https://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf
