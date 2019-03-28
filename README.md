@@ -865,7 +865,7 @@ pdfize(payload, "style_invoice.pdf")
 preview(payload)
 ```
 
-And through only one attribute I was able to inject HTML: CSS property! But the backend was not allowing `>`... And this tip from [18]: `You can use // to close a tag instead of >.` made the final exploit:
+And through only one attribute I was able to inject HTML: CSS property! But the backend was not allowing `</>`... And this tip from [18]: `You can use // to close a tag instead of >.` made the final exploit:
 
 ```python
 
