@@ -694,7 +694,7 @@ def queueRequests(target, wordlists):
                            )
 ...			   
     for word in open('C:\\wordlists\\backslash-powered-scanner-params.txt'):
-        engine.queue(target.req, word.strip() + ': turbo.d.mydomain.com.br')
+        engine.queue(target.req, word.strip() + '=turbo.d.mydomain.com.br')
 ...	
 def handleResponse(req, interesting):
     table.add(req)
